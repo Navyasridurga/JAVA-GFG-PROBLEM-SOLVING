@@ -1,0 +1,9 @@
+import java.util.Arrays;
+
+public class As_List1 {
+    public static void main(String args[]) {
+        int arr[] = { 10, 20, 30, 40 };
+        System.out.println(Arrays.asList(arr));
+
+    }
+}
