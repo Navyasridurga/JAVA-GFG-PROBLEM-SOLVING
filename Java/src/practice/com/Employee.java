@@ -1,0 +1,20 @@
+package practice.com;
+
+import java.util.function.Consumer;
+public class Employee {
+	public static void main(String[] args) {
+		Consumer<Integer> cn=salary->{
+		if(salary>30000) {
+			System.out.println(salary+4000);
+			System.out.println("Bonus:"+salary*0.10);
+		}
+		else {
+			System.out.println(salary+1000);
+			System.out.println("Bonus:"+salary*0.05);
+		}
+		
+	};
+	cn.accept(40000);
+	cn.accept(20000);
+	}
+}

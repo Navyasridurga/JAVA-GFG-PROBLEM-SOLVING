@@ -1,0 +1,20 @@
+package NestedInterface;
+
+
+interface Printable{
+	
+}
+class Book implements Printable{
+	
+}
+class Main7{
+	public static void main(String[] args) {
+		Book b1=new Book();
+		if(b1 instanceof Printable) {
+		System.out.println("Book supports Printable");
+	}
+		else {
+			System.out.println("no");
+		}
+}
+}

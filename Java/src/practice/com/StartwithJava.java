@@ -1,0 +1,11 @@
+package practice.com;
+
+import java.util.function.Predicate;
+public class StartwithJava {
+	public static void main(String[] args) {
+		Predicate<String> start= stw->stw.startsWith("Java");
+		System.out.println(start.test("Java programming"));
+		System.out.println(start.test("Python progarmming"));
+	}
+
+}

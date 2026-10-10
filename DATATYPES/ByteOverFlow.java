@@ -6,7 +6,7 @@ public class ByteOverFlow {
         short s=32767;
             s++;
             System.out.println(s);
-        int x=2147483648;
+        int x=214748368;
         x--;
         System.out.println(x);
     }

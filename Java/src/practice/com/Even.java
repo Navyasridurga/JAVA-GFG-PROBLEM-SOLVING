@@ -1,0 +1,13 @@
+package practice.com;
+
+import java.util.function.Predicate;
+public class Even {
+	public static void main(String[] args) {
+		Predicate<Integer> even=eve->eve %2==0;
+		System.out.println(even.test(7));
+		
+	}
+		
+	}
+
+
