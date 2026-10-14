@@ -1,0 +1,11 @@
+package practice.com;
+import java.util.function.Function;
+
+
+public class Double {
+	public static void main(String[] args) {
+		Function<Integer,Integer> fn=n->n*2;
+		System.out.println(fn.apply(5));
+	}
+
+}

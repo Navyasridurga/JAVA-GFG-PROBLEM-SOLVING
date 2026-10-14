@@ -1,0 +1,12 @@
+package practice.com;
+
+import java.util.function.Predicate;
+
+public class length {
+	public static void main(String[] args) {
+		Predicate<String> leng=le->le.length()>5;
+		System.out.println(leng.test("Java"));
+		System.out.println(leng.test("programming"));
+	}
+
+}
