@@ -10,29 +10,26 @@ public class Employee_Monthly_Sales {
             int monthly_Sales = 0;
 
             int highest = 0;
-               int average;
+            int average;
 
             for (int j = 0; j < 6; j++)
 
             {
-             
 
                 monthly_Sales += sales[i][j];
-               
 
                 if (highest < sales[i][j]) {
                     highest = sales[i][j];
-                    
+
                 }
             }
-             average = monthly_Sales / 6;
+            average = monthly_Sales / 6;
 
-                System.out.println("Employee" + (i + 1));
-                System.out.println("Total -6 Month Sales:" + monthly_Sales);
-                System.out.println("Average Monthly Sales:" + average);
-                System.out.println("Highest Monthy Sales:" + highest);
+            System.out.println("Employee" + (i + 1));
+            System.out.println("Total -6 Month Sales:" + monthly_Sales);
+            System.out.println("Average Monthly Sales:" + average);
+            System.out.println("Highest Monthy Sales:" + highest);
 
-            }
         }
     }
-
+}
